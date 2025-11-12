@@ -40,11 +40,11 @@ El proyecto destaca la cultura, historia y espiritualidad de los pueblos **Pasto
 ## 🧑‍💻 Autores  
 | Nombre | Rol |
 |--------|-----|
-| **Valentina Álvarez Solarte** | Contenido y documentación cultural |
-| **Juan David Delgado Muñoz** | Desarrollo front-end y UX |
-| **Carlos Andrés Quenan Alderete** | Diseño visual y multimedia |
-| **Víctor Manuel Velásquez Benavides** | Investigación y redacción |
-| **Anthony José Viveros Cabrera** | Coordinación técnica y desarrollo funcional |
+| **Valentina Álvarez Solarte** |
+| **Juan David Delgado Muñoz** |
+| **Carlos Andrés Quenan Alderete** |
+| **Víctor Manuel Velásquez Benavides** |
+| **Anthony José Viveros Cabrera** |
 
 ---
 
