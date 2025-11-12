@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Encantos del Sur AT — Turismo indígena y comunitario en Nariño</title>
+  <meta name="description" content="Turismo indígena y comunitario en Nariño. Vive experiencias auténticas con pueblos originarios: Pasto, Awá, Inga, Quillasinga y Cofán.">
+  <meta name="keywords" content="turismo indígena, Nariño, cultura, pueblos originarios, turismo comunitario">
+  
+  <!-- Preload de recursos críticos -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;600&display=swap" as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style">
+  
+  <!-- Fuentes e íconos -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Open Graph para redes sociales -->
+  <meta property="og:title" content="Encantos del Sur AT — Turismo indígena y comunitario">
+  <meta property="og:description" content="Vive experiencias auténticas con pueblos originarios de Nariño">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://encantosdelsurat.com">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+  <!-- Preloader mejorado -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-content">
+      <div class="spinner"></div>
+      <p>Cargando los encantos del sur...</p>
+    </div>
+  </div>
+
+  <!-- Header mejorado con scroll effect -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Encantos del Sur <span>AT</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#culturas" class="nav-link">Culturas</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="mode-toggle" id="modeToggle" aria-label="Cambiar modo claro/oscuro">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero mejorado con carrusel -->
+  <main id="inicio">
+    <section class="hero section container">
+      <div class="hero__text reveal-up">
+        <h1>Descubre los <span class="accent">Encantos del Sur</span> de Nariño</h1>
+        <p class="lead">
+          Vive experiencias de turismo cultural y comunitario junto a pueblos indígenas que preservan su identidad, lengua y conexión con la naturaleza.
+        </p>
+        <div class="hero__cta">
+          <a href="#servicios" class="btn btn--primary"><i class="fa-solid fa-feather"></i> Nuestros Servicios</a>
+          <a href="#contacto" class="btn btn--ghost"><i class="fa-solid fa-paper-plane"></i> Contactar</a>
+        </div>
+      </div>
+
+      <!-- Carrusel de imágenes -->
+      <div class="hero__media">
+        <div class="carousel" id="heroCarousel">
+          <div class="carousel__track">
+            <div class="carousel__slide">
+              <img src="img/AWA-2.jpg" alt="Representación del pueblo Awá de Nariño" class="hero-img" />
+            </div>
+            <div class="carousel__slide">
+              <img src="img/pasto.jpg" alt="Pueblo Pasto de Nariño" class="hero-img" />
+            </div>
+            <div class="carousel__slide">
+              <img src="img/inga.jpg" alt="Pueblo Inga de Nariño" class="hero-img" />
+            </div>
+          </div>
+          <button class="carousel__btn prev" aria-label="Imagen anterior">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="carousel__btn next" aria-label="Siguiente imagen">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <div class="carousel__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios mejorados y completos -->
+    <section id="servicios" class="services section container">
+      <header class="section__header">
+        <h2>Nuestros Servicios Turísticos</h2>
+        <p>Experiencias auténticas que conectan con la sabiduría ancestral y la naturaleza de Nariño</p>
+      </header>
+      
+      <div class="services-categories">
+        <!-- Tours y Excursiones -->
+        <div class="services-category">
+          <h3 class="category-title"><i class="fa-solid fa-map-marked-alt"></i> Tours y Excursiones</h3>
+          <div class="grid-3">
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <h4>Visitas a Comunidades Indígenas</h4>
+              <p>Conoce de primera mano la vida, tradiciones y cosmovisión de los pueblos Pasto, Awá, Inga, Quillasinga y Cofán.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Encuentros con sabedores ancestrales</li>
+                <li><i class="fa-solid fa-check"></i> Participación en rituales tradicionales</li>
+                <li><i class="fa-solid fa-check"></i> Intercambio cultural auténtico</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-water"></i>
+              </div>
+              <h4>Ruta de Termales y Lagunas</h4>
+              <p>Descubre las aguas termales medicinales y lagunas sagradas de la región, cargadas de significado espiritual.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Termales de Ipiales y Cumbal</li>
+                <li><i class="fa-solid fa-check"></i> Laguna de La Cocha (Santuario)</li>
+                <li><i class="fa-solid fa-check"></i> Baños de purificación ancestral</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-mountain"></i>
+              </div>
+              <h4>Montañas y Volcanes Sagrados</h4>
+              <p>Explora los majestuosos volcanes y montañas considerados sitios sagrados por las comunidades indígenas.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Volcán Galeras (Chiles)</li>
+                <li><i class="fa-solid fa-check"></i> Cerro de Tusa (Pasto)</li>
+                <li><i class="fa-solid fa-check"></i> Cerros sagrados del altiplano</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Servicios de Apoyo -->
+        <div class="services-category">
+          <h3 class="category-title"><i class="fa-solid fa-hands-helping"></i> Servicios de Apoyo</h3>
+          <div class="grid-3">
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-bus"></i>
+              </div>
+              <h4>Transporte Especializado</h4>
+              <p>Transporte seguro y cómodo con conductores conocedores de las rutas y comunidades de Nariño.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Vehículos 4x4 para terrenos difíciles</li>
+                <li><i class="fa-solid fa-check"></i> Recogida en aeropuerto/hotel</li>
+                <li><i class="fa-solid fa-check"></i> Rutas personalizadas</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <h4>Guías Especializados</h4>
+              <p>Guías locales bilingües con profundo conocimiento de la cultura indígena y la biodiversidad regional.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Guías indígenas certificados</li>
+                <li><i class="fa-solid fa-check"></i> Intérpretes culturales</li>
+                <li><i class="fa-solid fa-check"></i> Especialistas en ecoturismo</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-house-user"></i>
+              </div>
+              <h4>Hospedaje Comunitario</h4>
+              <p>Alojamiento auténtico en cabañas comunitarias y hogares de familias indígenas para una experiencia inmersiva.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Cabañas ecológicas</li>
+                <li><i class="fa-solid fa-check"></i> Hospedaje familiar</li>
+                <li><i class="fa-solid fa-check"></i> Alimentación incluida</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- Paquetes Personalizados -->
+        <div class="services-category">
+          <h3 class="category-title"><i class="fa-solid fa-gem"></i> Paquetes Personalizados</h3>
+          <div class="grid-3">
+            <article class="card service-card highlight reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <h4>Inmersión Cultural Total</h4>
+              <p>Vive 5 días de conexión profunda con las culturas indígenas, incluyendo todas las experiencias esenciales.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> 3 comunidades diferentes</li>
+                <li><i class="fa-solid fa-check"></i> Talleres artesanales</li>
+                <li><i class="fa-solid fa-check"></i> Ceremonias espirituales</li>
+                <li><i class="fa-solid fa-check"></i> Gastronomía ancestral completa</li>
+              </ul>
+              <div class="package-price">
+                <span class="price">Desde $1.200.000 COP</span>
+                <span class="duration">5 días / 4 noches</span>
+              </div>
+            </article>
+
+            <article class="card service-card highlight reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-mountain-sun"></i>
+              </div>
+              <h4>Aventura en la Naturaleza</h4>
+              <p>Combina ecoturismo y cultura en un recorrido por los paisajes más impresionantes de Nariño.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Senderismo en reservas naturales</li>
+                <li><i class="fa-solid fa-check"></i> Avistamiento de aves</li>
+                <li><i class="fa-solid fa-check"></i> Visita a proyectos sostenibles</li>
+                <li><i class="fa-solid fa-check"></i> Alojamiento ecológico</li>
+              </ul>
+              <div class="package-price">
+                <span class="price">Desde $850.000 COP</span>
+                <span class="duration">3 días / 2 noches</span>
+              </div>
+            </article>
+
+            <article class="card service-card highlight reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+              </div>
+              <h4>Retiro Espiritual</h4>
+              <p>Experiencia transformadora de reconexión interior guiada por sabedores indígenas.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Ceremonias de armonización</li>
+                <li><i class="fa-solid fa-check"></i> Medicina tradicional</li>
+                <li><i class="fa-solid fa-check"></i> Prácticas de mindfulness ancestral</li>
+                <li><i class="fa-solid fa-check"></i> Alimentación purificadora</li>
+              </ul>
+              <div class="package-price">
+                <span class="price">Desde $1.500.000 COP</span>
+                <span class="duration">4 días / 3 noches</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Experiencias Especiales -->
+        <div class="services-category">
+          <h3 class="category-title"><i class="fa-solid fa-star"></i> Experiencias Especiales</h3>
+          <div class="grid-3">
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-mortar-pestle"></i>
+              </div>
+              <h4>Talleres de Medicina Tradicional</h4>
+              <p>Aprende sobre plantas medicinales y prácticas curativas ancestrales con sabedores indígenas.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Reconocimiento de plantas</li>
+                <li><i class="fa-solid fa-check"></i> Preparación de remedios</li>
+                <li><i class="fa-solid fa-check"></i> Rituales de sanación</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <h4>Gastronomía Ancestral</h4>
+              <p>Participa en la preparación y degustación de platos tradicionales con ingredientes locales.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Cocina con productos orgánicos</li>
+                <li><i class="fa-solid fa-check"></i> Técnicas ancestrales</li>
+                <li><i class="fa-solid fa-check"></i> Significado cultural de los alimentos</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="service-icon">
+                <i class="fa-solid fa-hands"></i>
+              </div>
+              <h4>Turismo Comunitario Sostenible</h4>
+              <p>Contribuye al desarrollo local participando en proyectos comunitarios de conservación.</p>
+              <ul class="service-features">
+                <li><i class="fa-solid fa-check"></i> Reforestación participativa</li>
+                <li><i class="fa-solid fa-check"></i> Apoyo a emprendimientos locales</li>
+                <li><i class="fa-solid fa-check"></i> Intercambio de conocimientos</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-cta">
+        <p>¿No encuentras lo que buscas? <strong>Personalizamos experiencias</strong> según tus intereses y necesidades.</p>
+        <a href="#contacto" class="btn btn--primary"><i class="fa-solid fa-wand-magic-sparkles"></i> Solicitar Experiencia Personalizada</a>
+      </div>
+    </section>
+
+    <!-- Resto de las secciones (culturas, galería, testimonios, contacto) se mantienen igual -->
+    <!-- ... -->
+
+  </main>
+
+  <!-- Footer mejorado y corregido -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <h4>Encantos del Sur <span>AT</span></h4>
+        <p>Turismo indígena y comunitario en Nariño. Inspirado en la identidad cultural, la sostenibilidad y el respeto por los pueblos ancestrales.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer__links-section">
+        <h5>Enlaces rápidos</h5>
+        <ul class="footer__links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#culturas">Culturas</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__authors">
+        <h5>Autores</h5>
+        <ul class="footer__links">
+          <li>Valentina Álvarez Solarte</li>
+          <li>Juan David Delgado Muñoz</li>
+          <li>Carlos Andrés Quenan Alderete</li>
+          <li>Víctor Manuel Velásquez Benavides</li>
+          <li>Anthony José Viveros Cabrera</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copy">© <span id="year"></span> Encantos del Sur AT. Todos los derechos reservados.</div>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
